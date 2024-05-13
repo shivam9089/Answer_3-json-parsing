@@ -9,7 +9,7 @@ function parseJson(jsonString) {
     }
 }
 
-const json = '{"name":"John", "age":30, "is_student":false}';
+const json = '{"name":"Shivam", "age":22, "is_student":true}';
 
 const parsedData = parseJson(json);
 console.log(parsedData);
